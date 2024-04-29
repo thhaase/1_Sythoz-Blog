@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sythoz Blog</title>
+    <link rel="stylesheet" href="source/standard.css" id="themeStyle">
+    <link rel="stylesheet" href="source/katex/katex.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1><strong>Sythoz</strong></h1>
+        <div class="nav-toggle"></div> <!-- Hamburger icon will be displayed here -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#" id="themeSwitcher">Switch Theme</a>
+            <button onclick="window.print();" class="nav-button">Print</button>
+        </nav>
+    </div>
+
+    <div id="content"></div>
+
+    <!-- include katex -->
+    <script src="source/katex/katex.min.js"></script>
+    <script src="source/katex/contrib/auto-render.min.js"></script>
+
+    <!-- include Markdownparser-->
+    <script src="source/markdownParser.js"></script>
+
+    <!--Loading Markdowncontent, Themeswitcher, Linking Markdownfiles-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Apply the stored theme on page load
+            const savedTheme = sessionStorage.getItem('theme');
+            const themeStyle = document.getElementById('themeStyle');
+            if (savedTheme) {
+            // Prepend "source/" to the saved theme if it doesn't already start with it
+            const themePath = savedTheme.startsWith('source/') ? savedTheme : `source/${savedTheme}`;
+            themeStyle.setAttribute('href', themePath);
+        }   
+
+            // Load and render Markdown content
+            fetch('startpage.md')
+                .then(response => response.text())
+                .then(text => {
+                    const contentElement = document.getElementById('content');
+                    contentElement.innerHTML = parseMarkdown(text);
+                    renderMathInElement(contentElement, {
+                        delimiters: [
+                            {left: "$$", right: "$$", display: true},
+                            {left: "\\[", right: "\\]", display: true},
+                            {left: "$", right: "$", display: false},
+                            {left: "\\(", right: "\\)", display: false}
+                        ],
+                        ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+                    });
+                })
+                .catch(error => console.error('Error loading markdown:', error));
+
+            // Theme switcher functionality
+            document.getElementById('themeSwitcher').addEventListener('click', e => {
+                e.preventDefault();
+                const currentTheme = themeStyle.getAttribute('href');
+                const themeFilename = currentTheme.split('/').pop(); // Get only the filename.css
+                const newTheme = themeFilename === 'standard.css' ? 'second.css' : 'standard.css'; // Change the theme filename
+                themeStyle.setAttribute('href', 'source/' + newTheme); // Add the 'source/' prefix back when setting the attribute
+                sessionStorage.setItem('theme', newTheme); // Save the new theme path with 'source/' prefix
+            });
+
+
+            // linking markdown files made easy
+            document.body.addEventListener('click', e => {
+                if (e.target.tagName === 'A' && e.target.href.match(/\.md$/)) {
+                    e.preventDefault(); // Prevent default link behavior
+                    const mdFilePath = e.target.getAttribute('href');
+                    const mdFileName = mdFilePath.split('/').pop(); // Extracts the file name from the path
+                    const pageName = mdFileName.replace('.md', ''); // Removes the .md extension
+                    window.location.href = `source/page.html?name=${pageName}`; // Redirects to the corresponding page
+                }
+            });
+
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        
+            const navToggle = document.querySelector('.nav-toggle');
+            const nav = document.querySelector('.header nav');
+
+            navToggle.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>

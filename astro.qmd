@@ -1,0 +1,83 @@
+---
+title: ""
+listing: 
+  contents: photography/astro 
+format:
+  html: 
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 100px
+      gutter-width: 0rem
+sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - index.qmd
+          - basics-knitr.qmd
+      - section: "Layout"
+        contents:
+          - layout.qmd
+          - layout-knitr.qmd
+---
+
+# [Astrophotos]{.orange-text}
+
+# Planetary
+## Jupiter
+::: {layout-ncol=2}
+![Jupiter - Wasserkuppe 26.09.23](photography/astro/23_09_26_Wasserkuppe/3.jpg)
+
+![Jupiter - Wasserkuppe 26.09.23](photography/astro/23_09_26_Wasserkuppe/1.jpg)
+:::
+
+![Jupiter with 2 moons - Gießen 21.09.23 ](photography/astro/23_09_21_planeten_andromeda_plejaden/Jupiter1.jpg)
+
+## Saturn
+
+![Saturn - Gießen 21.09.23](photography/astro/23_09_21_planeten_andromeda_plejaden/Saturn3.1.jpg)
+
+# Deepsky
+## Orionnebula
+::: {layout-ncol=2}
+![Orionnebula - Gießen 04.02.23](photography/astro/23_02_04_orionnebel/Orionnebel3.jpeg){width=80%}
+
+![Orionnebula cropped - Gießen 04.02.23](photography/astro/23_02_04_orionnebel/Orionnebel2.jpg){width=80%}
+:::
+
+## Andromeda
+![Andromeda - Gießen 21.09.23](photography/astro/23_09_21_planeten_andromeda_plejaden/andromeda.jpg)
+
+# Constellations
+![Plejads on the left and Jupiter on the right - Gießen 21.09.23](photography/astro/23_09_21_planeten_andromeda_plejaden/jupiter_plejaden.jpg)
+
+# Moon
+
+## Full Disc
+
+![Mond - Gießen 02.09.23](photography/astro/23_09_02_mond/mond3_squared.jpg)
+
+::: {layout-ncol=2}
+![Mond - Gießen 02.09.23](photography/astro/23_09_02_mond/mond3_2_squared.jpg){width=50%}
+
+![Mond - Gießen 06.05.23](photography/astro/23_05_06_mond/1.jpg){width=50%}
+:::
+
+## Close Up
+
+![Tycho - Gießen 26.11.23](photography/astro/23_09_26_Wasserkuppe/10.jpg)
+
+::: {layout-ncol=2}
+![(through Clouds) Gießen 26.11.23](photography/astro/23_10_24_Giessen_Mondoberfläche/2.jpg){width=50%}
+
+![(through Clouds) Gießen 26.11.23](photography/astro/23_10_24_Giessen_Mondoberfläche/1.jpg){width=50%}
+:::
+
+::: {layout-ncol=2}
+![Tycho (through Clouds) - Gießen 26.11.23](photography/astro/23_10_24_Giessen_Mondoberfläche/3.jpg){width=50%}
+:::
+
+::: {.callout-note}
+All Images by Thomas Haase [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+:::

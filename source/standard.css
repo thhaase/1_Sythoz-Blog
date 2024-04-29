@@ -1,0 +1,419 @@
+/* Open Sans Regular */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./source/standard/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Open Sans Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./source/standard/Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Open Sans Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./source/standard/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Open Sans Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./source/standard/Open_Sans/static/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('./standard/Fira_Code/FiraCode-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('./standard/Fira_Code/FiraCode-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+
+
+
+
+
+.header {
+    background-color: #333;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-bottom: 2px solid #555;
+    margin: -10px -20px -0px -20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.header a {
+    color: #7abafb;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1em;
+    padding: 5px 10px;
+    position: relative; /* Required for absolute positioning of pseudo-elements */
+    overflow: hidden; /* Ensures the pseudo-element is clipped to the link's dimensions */
+    transition: color 0.2s; /* Transition for the color */
+}
+
+.header a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #7abafb;
+    transition: width 0.2s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.header a:not(#themeSwitcher):hover::after {
+    width: 100%; /* Full width of the link */
+}
+
+.header a:hover {
+    text-decoration: none; /* Ensure the default underline doesn't show */
+    color: #7abafb ;
+}
+
+#themeSwitcher {
+    color: #ddd;
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+#themeSwitcher:hover {
+    background-color: darkgrey;
+    color: #333;
+}
+
+.nav-button {
+    color: #ddd;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-left: 20px;
+    font-size: 1em;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Match the font style */
+    text-align: center;
+    line-height: normal;
+    display: inline-block;
+    border-color: #ddd
+}
+
+
+.nav-button:hover {
+    color: #333;
+    text-decoration: none;
+    background-color: darkgrey;
+}
+
+
+/* This will hide the nav links on small screens and show a hamburger icon instead */
+@media (max-width: 768px) {
+    .header nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        max-height: 0; /* Start with max-height 0 */
+        overflow: hidden; /* Hide the overflowing content */
+        transition: max-height 0.2s; /* Animate max-height for a smooth transition */
+        width: 100%; /* Make nav full width */
+        position:absolute; /* Position it on top of everything else */
+        top: 4.8rem; /* Directly below the header */
+        left: 0px;
+        background-color: #333; /* Match the header background color */
+ /*       border-bottom: 3px solid #ddd; /* Add a black line at the bottom */
+    }
+    
+    .header nav.active {
+        max-height: 20em; /* This value should be greater than the total height of all nav items */
+        padding-bottom: 1rem; /* Add padding at the bottom of the menu */
+        border-bottom: 2px solid #222;
+        width: 100%;
+    }
+  
+    .nav-toggle {
+        display: block;
+        cursor: pointer;
+        position: relative; /* Position the hamburger icon relative to header */
+        z-index: 1000; /* Ensure the icon is above the expanded menu */
+    }
+  
+    .nav-toggle:before {
+        content: "\2630"; /* Unicode character for hamburger icon */
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    /* Style adjustments for the nav links */
+    .header a {
+        padding: 1em 0em 1em 0em;
+        width: 90%;
+        box-sizing: border-box; /* Include padding and border in width */
+        display: block; /* Make the anchor tags behave like block elements */
+        text-align: center; /* Center the text */
+        border-bottom: 1px solid #333; /* Add a border to separate items */
+    }
+    .header a#themeSwitcher {
+        margin-bottom: 1em; /* Adjust as needed for desired space */
+        padding: 0.5em 0 0.5em 0;
+    }
+
+    .nav-button {
+        margin-left: 20px;
+        font-size: 1em;
+        width: 90%;
+        box-sizing: border-box; /* Include padding and border in width */
+        padding: 0.7em 0 0.5em 0;
+    }
+
+}
+  
+
+
+
+
+
+
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ddd;
+    line-height: 1.5;
+    font-size: large;
+    background-color: #222;
+}
+
+#content, #pageContent {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+    #content, #pageContent {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    #content, #pageContent {
+        max-width: 1200px;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 0.66rem 0;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 2px solid #444;
+}
+
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 2px solid #444;
+}
+
+h3 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #444;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5, h6 {
+    font-size: 1.2em;
+}
+
+
+a {
+    color: #7abafb; /* This sets the link color to the specified blue */
+}
+
+a:hover {
+    color: #345f7c; /* Darker shade for hover state, optional */
+    text-decoration: underline; /* If you want to maintain underlining on hover */
+}
+
+blockquote {
+    border-left: 4px solid #a4a4a4;
+    padding: 0 15px;
+    color: #a4a4a4;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: #a4a4a4;
+    margin: 16px 0;
+    border: none;
+}
+
+code, tt {
+    font-family: monospace;
+    background-color: #f8f8f8;
+    padding: 2px 4px;
+    border-radius: 3px;
+    border: 1px solid #e7eaed;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #e7eaed;
+}
+
+th, td {
+    border: 1px solid #e7eaed;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #333;
+}
+
+
+/*Bulletpoints*/
+
+/* main bulletpoints */
+ul {
+    list-style-type: disc; /* solid circles */
+    margin-top: -0px;
+    margin-bottom: -12px;
+}
+  
+/* nested bulletpoints */
+ul ul {
+    list-style-type: circle; /* hollow circles */
+}
+    
+
+/*Codeblocks*/
+/* Code and tt elements no longer have a distinct background or border */
+code, tt {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    font-family: 'Fira Code', monospace;
+}
+/*Block*/
+pre {
+    background-color: #333; /* Darker grey to make code blocks stand out */
+    border-left: 4px solid #4183C4; /* Adds a colored border to the left for a modern look, similar to blockquote */
+    border-radius: 12px; /* Aligns with your design's clean and modern aesthetics */
+    padding: 1em;
+    overflow: auto; /* Keeps the scrollbar for overflow */
+    font-family: 'Fira Code', monospace;
+    color: #fff; /* Text color similar to body for better consistency */
+    line-height: 1.6; /* Matches the line height of your body text */
+    margin: 0.8em 0; /* Spacing above and below the code blocks */
+    font-size: medium;
+    box-shadow: 0 0 2px #333;
+}
+
+.keyword { color: #795da3; font-weight: bold; }
+.string { color: #df5000; }
+
+
+/* print without header */
+@media print {
+    body, html {
+        width: 100%;
+    }
+
+    .header {
+        display: none; /* Hides parts of the page that shouldn't be printed */
+    }
+
+    nav {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        /*font-size: 12pt; larger text when printing */
+    }
+
+}
+
+
+/* Basic reset for the checkbox */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ddd; /* Dark background color */
+    border: 2px solid #333; /* Darker border color */
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px; /* Width of the checkbox */
+    height: 20px; /* Height of the checkbox */
+    position: relative; /* Relative positioning for the checkmark */
+}
+
+/* Custom checkmark */
+input[type="checkbox"]:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #222;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+/* Display the checkmark when checkbox is checked */
+input[type="checkbox"]:checked:after {
+    opacity: 1;
+}
+
