@@ -2,6 +2,7 @@
 
 - [Astrophotography](astrophotography.md)
 
+
 # Posts
 
 | Date       | Post                                                        |
