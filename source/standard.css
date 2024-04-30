@@ -45,9 +45,6 @@
 
 
 
-
-
-
 .header {
     background-color: #333;
     padding: 1em 2em;
@@ -55,7 +52,7 @@
     align-items: center;
     justify-content: space-between; 
     border-bottom: 2px solid #555;
-    margin: -10px -20px -0px -20px;
+    margin: -8px -8px -0px -8px;
 }
 
 .header h1 {
@@ -243,6 +240,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
 }
 
+
+
 h1 {
     font-size: 2.25em;
     line-height: 1.2;
@@ -267,6 +266,10 @@ h4 {
 h5, h6 {
     font-size: 1.2em;
 }
+
+
+
+
 
 
 a {
@@ -307,10 +310,10 @@ table {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #e7eaed;
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 3);}
 
 th, td {
-    border: 1px solid #e7eaed;
+    border: 1px solid #000;
     text-align: left;
     padding: 8px;
 }
@@ -319,6 +322,12 @@ th {
     background-color: #333;
 }
 
+/*
+* {
+/    outline: 1px solid red;
+}
+*/
+
 
 /*Bulletpoints*/
 
@@ -326,12 +335,12 @@ th {
 ul {
     list-style-type: disc; /* solid circles */
     margin-top: -0px;
-    margin-bottom: -12px;
+    margin-bottom: 0px;
 }
   
 /* nested bulletpoints */
 ul ul {
-    list-style-type: circle; /* hollow circles */
+    list-style-type: circle; 
 }
     
 
@@ -416,4 +425,78 @@ input[type="checkbox"]:after {
 input[type="checkbox"]:checked:after {
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

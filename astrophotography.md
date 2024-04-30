@@ -88,9 +88,7 @@ Mond - Gießen 02.09.23
         Mond - Gießen 06.05.23
     </div>
 </div>
-<br><br><br><br><br><br>
-
-
+<br><br><br><br><br><br><br>
 
 
 ### Close Up
@@ -112,14 +110,7 @@ Tycho - Gießen 26.11.23
     </div>
 </div>
 <br><br><br><br><br><br>
-<div style="display: flex; flex-direction: row; height: 300px;">
-    <div style="flex: 1; padding: 10px; box-sizing: border-box;">
-        ![Tycho (through Clouds) - Gießen 26.11.23](media/astrophotography/23_10_24_Giessen_Mondoberfläche/3.jpg)
+![Tycho (through Clouds) - Gießen 26.11.23](media/astrophotography/23_10_24_Giessen_Mondoberfläche/3.jpg|60)
 
-        Tycho (through Clouds) - Gießen 26.11.23
-    </div>
-    <div style="flex: 1; padding: 10px; box-sizing: border-box;">
-    </div>
-</div>
-<br><br><br><br><br><br>
+Tycho (through Clouds) - Gießen 26.11.23
 
