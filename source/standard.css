@@ -221,6 +221,18 @@ canvas {
 
 
 
+
+
+
+
+
+
+
+
+
+/*next line is for sticky footer*/
+html, body { height: 100%;}
+
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #ddd;

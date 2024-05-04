@@ -224,6 +224,19 @@ canvas {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/*next line is for sticky footer*/
+html, body { height: 100%;}
+
 /* Styles for the content */
 #content, #pageContent {
     border: 2px solid #000;
