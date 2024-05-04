@@ -14,18 +14,18 @@
 ### Jupiter
 ![Jupiter - Wasserkuppe 26.09.23](media/astrophotography/23_09_26_Wasserkuppe/3.jpg|50)
 
-Jupiter - Wasserkuppe 26.09.23
+Jupiter - Wasserkuppe 26.09.2023
 
 <div style="display: flex; flex-direction: row; height: 300px;">
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
         ![Jupiter - Wasserkuppe 26.09.23](media/astrophotography/23_09_26_Wasserkuppe/1.jpg|100)
 
-        Jupiter - Wasserkuppe 26.09.23
+        Jupiter - Wasserkuppe 26.09.2023
     </div>
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
         ![Jupiter with 2 moons - Gießen 21.09.23](media/astrophotography/23_09_21_planeten_andromeda_plejaden/Jupiter1.jpg|100)
 
-        Jupiter with 2 moons - Gießen 21.09.23
+        Jupiter with 2 moons - Gießen 21.09.2023
     </div>
 </div>
 
@@ -44,12 +44,12 @@ Saturn - Gießen 21.09.23
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
         ![Orionnebula - Gießen 04.02.23](media/astrophotography/23_02_04_orionnebel/Orionnebel3.jpeg)
 
-        Orionnebula - Gießen 04.02.23
+        Orionnebula - Gießen 04.02.2023
     </div>
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
         ![Orionnebula cropped - Gießen 04.02.23](media/astrophotography/23_02_04_orionnebel/Orionnebel2.jpg)
 
-        Orionnebula cropped - Gießen 04.02.23
+        Orionnebula cropped - Gießen 04.02.2023
     </div>
 </div>
 
@@ -61,12 +61,12 @@ Saturn - Gießen 21.09.23
 
 ![Andromeda - Gießen 21.09.23](media/astrophotography/23_09_21_planeten_andromeda_plejaden/andromeda.jpg|90)
 
-Andromeda - Gießen 21.09.23
+Andromeda - Gießen 21.09.2023
 
 ## Constellations
 ![Plejads on the left and Jupiter on the right - Gießen 21.09.23](media/astrophotography/23_09_21_planeten_andromeda_plejaden/jupiter_plejaden.jpg|90)
 
-Plejads on the left and Jupiter on the right - Gießen 21.09.23
+Plejads on the left and Jupiter on the right - Gießen 21.09.2023
 
 ## Moon
 
@@ -78,14 +78,14 @@ Mond - Gießen 02.09.23
 
 <div style="display: flex; flex-direction: row; height: 300px;">
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
-        ![Mond - Gießen 02.09.23](media/astrophotography/23_09_02_mond/mond3_2_squared.jpg)
+        ![Mond - Gießen 02.09.2023](media/astrophotography/23_09_02_mond/mond3_2_squared.jpg)
 
-        Mond - Gießen 02.09.23
+        Mond - Gießen 02.09.2023
     </div>
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
         ![Mond - Gießen 06.05.23](media/astrophotography/23_05_06_mond/1.jpg)
 
-        Mond - Gießen 06.05.23
+        Mond - Gießen 06.05.2023
     </div>
 </div>
 <br><br><br><br><br><br><br>
@@ -93,7 +93,7 @@ Mond - Gießen 02.09.23
 
 ### Close Up
 
-![Tycho - Gießen 26.11.23](media/astrophotography/23_09_26_Wasserkuppe/10.jpg|90)
+![Tycho - Wasserkuppe 26.09.2023](media/astrophotography/23_09_26_Wasserkuppe/10.jpg|90)
 
 Tycho - Gießen 26.11.23
 
@@ -101,16 +101,16 @@ Tycho - Gießen 26.11.23
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
         ![(through Clouds) Gießen 26.11.23](media/astrophotography/23_10_24_Giessen_Mondoberfläche/2.jpg)
 
-        (through Clouds) Gießen 26.11.23
+        (through Clouds) Gießen 26.11.2023
     </div>
     <div style="flex: 1; padding: 10px; box-sizing: border-box;">
         ![(through Clouds) Gießen 26.11.23](media/astrophotography/23_10_24_Giessen_Mondoberfläche/1.jpg)
 
-        (through Clouds) Gießen 26.11.23
+        (through Clouds) Gießen 26.11.2023
     </div>
 </div>
 <br><br><br><br><br><br>
 ![Tycho (through Clouds) - Gießen 26.11.23](media/astrophotography/23_10_24_Giessen_Mondoberfläche/3.jpg|60)
 
-Tycho (through Clouds) - Gießen 26.11.23
+Tycho (through Clouds) - Gießen 26.11.2023
 
