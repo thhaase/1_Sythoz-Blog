@@ -43,7 +43,7 @@ body {
     line-height: 1.2;
     background: #fff;
     color: #333;
-    margin: 0;
+    margin:  0;
     padding: 0;
 }
 
@@ -227,7 +227,7 @@ canvas {
 /* Styles for the content */
 #content, #pageContent {
     border: 2px solid #000;
-    margin: 0 auto;
+    margin: 37px auto;
     padding: 20px 40px;
     max-width: calc(100% - 40%);
 }
@@ -399,6 +399,9 @@ ol ul ul {
         box-sizing: border-box; /* Include padding and border in width */
     }
 
+    footer {
+        display: none;
+    }
 }
 
 
@@ -434,3 +437,16 @@ input[type="checkbox"]:checked:after {
     opacity: 1;
 }
 
+footer {
+    background-color: #e7e7e7;
+    font-size: 0.7rem;
+    color: white;
+    padding: 3px 20px 3px 20px;
+    margin: -7px -0px -7px -0px; 
+}
+
+
+body > footer {
+    position: sticky;
+    top: 100vh
+}
