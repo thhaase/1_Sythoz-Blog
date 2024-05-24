@@ -77,12 +77,14 @@ function parseMarkdown(markdownText) {
         .replace(tableRegex, match => parseTable(match))
 
         // Linebreaks
+        .replace(/\n\s*\n\s*\n\s*\n\s*\n/g, '<br><br><br><br>')
+        .replace(/\n\s*\n\s*\n\s*\n/g, '<br><br><br>')
         .replace(/\n\s*\n\s*\n/g, '<br><br>')
         .replace(/\n\s*\n/g, '<br>')
 
 
         // Horizontal lines
-        .replace(/---+/g, '<hr style="border: 0; height: 1.2px; background: #000;" />')
+        .replace(/---+/g, '<hr style="border: 0; height: 1.8px; background: #fff " />')
 
         .replace(/@@@BLOCKMATH-(\d+)@@@/g, (match, index) => {
                     return `<span class="katex-display">\$${blockMath[index]}\$</span>`;

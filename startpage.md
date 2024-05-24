@@ -1,7 +1,7 @@
-# Featured
+# Always Ongoing Lists
 
 - [Astrophotography](astrophotography.md)
-
+- [Quotes I like](quotes.md)
 
 # Posts
 
