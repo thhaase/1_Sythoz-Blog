@@ -68,7 +68,7 @@ body {
 }
 
 .header a {
-    color: #4183C4;
+    color: #2b649e;
     text-decoration: none;
     margin-left: 20px;
     font-size: 1em;
@@ -83,7 +83,7 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background: #4183C4;
+    background: #2b649e;
     transition: width 0.3s;
     position: absolute;
     bottom: 0;
@@ -283,11 +283,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre, table, hr {
 }
 
 a {
-    color: #4183C4; /* This sets the link color to the specified blue */
+    color: #2b649e; /* This sets the link color to the specified blue */
 }
 
 a:hover {
-    color: #345f7c; /* Darker shade for hover state, optional */
+    color: #0484d3; /* Darker shade for hover state, optional */
     text-decoration: underline; /* If you want to maintain underlining on hover */
 }
 
