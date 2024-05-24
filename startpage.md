@@ -1,10 +1,12 @@
-# CHAOS (Curated Highlights, Artifacts and Outstanding Snapshots)
+## CHAOS 
+(**C**urated **H**ighlights, **A**rtifacts and **O**utstanding **S**napshots)
+
 
 - [Astrophotography](astrophotography.md)
 - [Quotes I like](quotes.md)
 
-# Blog Posts
 
+## Posts
 | Date       | Post                                                                                                           |
 |------------|----------------------------------------------------------------------------------------------------------------|
 | 2024-04-29 | [markdown2website](2024-04-29-markdown2website.md)                                                             |
