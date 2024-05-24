@@ -11,13 +11,13 @@ Here's how it works:
 
 ---
 
-With the following Website you can compute the Erdösnumber of Mathematicians/Physicists:
+Using the following Website of the FIZ you can compute the Erdösnumber between two Mathematicians/Physicists:
 
 - [https://zbmath.org/collaboration-distance/?a=Paul+Erd%C5%91s&b=](https://zbmath.org/collaboration-distance/?a=Paul+Erd%C5%91s&b=)
 
-The average Erdösnumber of the mathematicians from Giessen is lower then the average Erdösnumber from the Würzburg mathematicians: 
+According to the FIZ data, the average Erdösnumber of mathematicians in Giessen is lower than the average Erdösnumber of mathematicians in Würzburg: 
 
-| Department  | Erdöszahl         |
+| Department  | Erdösnumber       |
 | ----------- | ----------------- |
 | Gießen      | 3,46153846153846  |
 | Würzburg    | 3,74418604651163  |
