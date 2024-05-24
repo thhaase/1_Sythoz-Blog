@@ -1,0 +1,3 @@
+- wann ist etwas politisch?
+  - konstruktion durch zuschauende
+- 

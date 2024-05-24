@@ -12,6 +12,5 @@ I tried to keep everything minimalistic and userfriendly.Creating a website from
 I did not add automation for tags etc. like casualwriter did with this tool, because of simplicity and the need to stay abstract to use the tool for different purposes. There might be the paradigm to sort blogposts via tags, but I like the Idea of just reading through ideas wich seem not particularly interested at first - most of the time you learn a lot. Also, thinking about sorting only makes sense after there are already many posts existing and for that I need to write some posts first 😁. Even then keeping a little Chaos might enhance creativity and usefulness.
 
 
-
 #### You can find the Project here:
 - [https://github.com/thhaase/markdown2website](https://github.com/thhaase/markdown2website)
