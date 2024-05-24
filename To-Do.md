@@ -1,5 +1,6 @@
 - wann ist etwas politisch?
   - konstruktion durch zuschauende
+
 - Dateien und Notizen organisieren
   - PARA
   - Entropy and randomness
