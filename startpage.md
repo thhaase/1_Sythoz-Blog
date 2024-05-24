@@ -1,9 +1,9 @@
-# Always Ongoing Lists
+# CHAOS (Curated Highlights, Artifacts and Outstanding Snapshots)
 
 - [Astrophotography](astrophotography.md)
 - [Quotes I like](quotes.md)
 
-# Posts
+# Blog Posts
 
 | Date       | Post                                                                                                           |
 |------------|----------------------------------------------------------------------------------------------------------------|
