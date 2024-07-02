@@ -8,8 +8,11 @@
     - GoogleDrive ==> Selfhosted
 
 - bookshelf
+
  - link to aboutpage sociological theories
 
 - what is wrong with mbti
 
-- coleman boat
+  
+
+- lotkas, bradfort und ... law
