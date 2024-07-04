@@ -25,7 +25,7 @@ According to the FIZ data, the average Erdösnumber of mathematicians in Giessen
 
 
 
-![](media/erdöszahl_giessen_würzburg.png|60)
+![](media/2023-04-24-erdöszahl_giessen_würzburg.png|60)
 
 
 
