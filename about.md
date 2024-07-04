@@ -1,6 +1,5 @@
 # $ whoami
 I study social sciences (mainly sociology) at JLU-Gießen.
-- very interested and passionate
 
 ##### Interests
 - digitalization is a great way to study human interactions
