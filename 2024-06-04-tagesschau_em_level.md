@@ -367,7 +367,7 @@ plt.show()
 
 
     
-![](media/2024-06-04-Flesch_Timeseries.png)
+![](media/2024-06-04-Flesch_Timeseries.png|80)
     
 
 
@@ -407,7 +407,7 @@ plt.show()
 
 
     
-![](media/2024-06-04-t_test.png)
+![](media/2024-06-04-t_test.png|80)
     
 
 
