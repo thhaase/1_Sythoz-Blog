@@ -18,6 +18,7 @@ _"It is true that my interest in the foundations of mathematics was aroused by t
 _“Sociology is the science with the greatest number of methods and the least results.”_ - Henri Poincaré
 
 
+_You can lie with statistics, but it's a lot easier to lie without them_ - Amos Tversky (Isreal cognition scientist)
 
 
 _"If men define situations as real, they are real in their consequences."_ - [Thomas Theorem](https://en.wikipedia.org/wiki/Thomas_theorem)
